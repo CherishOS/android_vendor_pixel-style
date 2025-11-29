@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="AllAppsBlurStyle">
+        <item name="allAppsScrimColor">@*android:color/shade_panel_scrim_color</item>
+        <item name="groupHighlight">@*android:color/surface_effect_1</item>
+        <item name="focusHighlight">@*android:color/surface_effect_2</item>
+        <item name="allAppsSurfaceLow">@*android:color/surface_effect_0</item>
+        <item name="allAppsSurfaceHighest">@*android:color/surface_effect_2</item>
+        <item name="allAppsUnselectedTab">@*android:color/surface_effect_2</item>
+        <item name="allappsHeaderProtectionColor">@*android:color/surface_effect_1</item>
+        <item name="privateSpaceSettingsColor">@*android:color/surface_effect_2</item>
+        <item name="privateSpaceDividerColor">@*android:color/surface_effect_3</item>
+        <item name="bottomSheetDragHandleColor">@color/materialColorOnSurface</item>
+    </style>
     <style name="BaseIconRoot" parent="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle">
         <item name="android:fontFamily">@*android:string/config_bodyFontFamilyMedium</item>
     </style>
